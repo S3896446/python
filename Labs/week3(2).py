@@ -102,14 +102,24 @@ if __name__ == "__main__":
     writing_course_1.add_student("Michael Brown")
     writing_course_2.add_student("Sophia Lee")
 
-    print(cooking_course_1.get_course_id())  # Output: 001
-    print(cooking_course_1.get_teacher_name())  # Output: Chef John
-    print(cooking_course_1.get_students_enrolled())  # Output: ['John Doe']
-    print(cooking_course_1.get_max_students())  # Output: 10
-    print(cooking_course_1.get_standard_charge())  # Output: 500
-    print(cooking_course_1.get_income())  # Output: 500
 
-    cooking_course_1.set_standard_charge(600)
-    print(cooking_course_1.get_standard_charge())  # Output: 600
 
     print(cooking_course_1)  # Output: Course ID: 001, Teacher: Chef John, Enrolled Students: 1, Max Students: 10, Income: $600
+    print(cooking_course_2)
+    print(sewing_course_1)
+    print(writing_course_1)
+    print(writing_course_2)
+    
+    
+    
+    
+    
+    # print(cooking_course_1.get_course_id())  # Output: 001
+    # print(cooking_course_1.get_teacher_name())  # Output: Chef John
+    # print(cooking_course_1.get_students_enrolled())  # Output: ['John Doe']
+    # print(cooking_course_1.get_max_students())  # Output: 10
+    # print(cooking_course_1.get_standard_charge())  # Output: 500
+    # print(cooking_course_1.get_income())  # Output: 500
+
+    # cooking_course_1.set_standard_charge(600)
+    # print(cooking_course_1.get_standard_charge())  # Output: 600

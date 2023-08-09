@@ -8,7 +8,6 @@ class Course:
         self.income = 0
         self.cost_of_running = 0
         
-
     def add_student(self, student):
         if len(self.students_enrolled) < self.max_students:
             self.students_enrolled.append(student)
@@ -69,7 +68,6 @@ if __name__ == "__main__":
     
 
     print(cooking_course_1)
-    
     print(cooking_course_2)
     print(sewing_course_1)
     print(writing_course_1)
